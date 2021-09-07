@@ -1,0 +1,141 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  scroll-behavior: smooth;
+}
+#services {
+  /* background-color: #007bff !important; */
+  height: 620px;
+}
+#services h1 {
+  text-align: center;
+  margin: 50px auto 120px;
+  margin-top: 40px !important;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 15px;
+  font-family: "hammersmith one";
+}
+#services h1::after {
+  content: "";
+  background: linear-gradient(to left, #2bb53a, #6415cc);
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 10px auto;
+}
+.service p {
+  color: darkseagreen;
+  font-family: "Cabin";
+}
+.main {
+  width: 100%;
+  min-height: 380px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.hero {
+  margin-top: -35px;
+}
+.service {
+  transition: transform 0.8s;
+  background: linear-gradient(260deg, #134e69, #095234);
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 0 20px -15px #030380;
+}
+.service-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: -90px auto 0;
+  background: linear-gradient(260deg, #134e69, #095234);
+  border: 18px solid #191729;
+}
+.service-logo img {
+  width: 50px;
+  transition: transform 1s;
+  margin-top: 20px;
+}
+
+.service .fa {
+  font-size: 65px !important;
+  margin-left: 1px;
+  margin-bottom: 3px;
+  transition: transform 1s;
+  color: darkcyan;
+}
+.service h4 {
+  color: lightskyblue;
+  height: 35px;
+  width: 80%;
+  background: linear-gradient(260deg, #134e69, #095234);
+  margin: 50px auto;
+  font-family: "hammersmith one";
+  position: relative;
+}
+.service h4::after {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, #00c4ff, rgba(255, 255, 255, 0));
+  position: absolute;
+  left: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+.service h4::before {
+  content: "";
+  width: 40px;
+  height: 30px;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #00c4ff);
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: -1;
+}
+.shadowOne {
+  height: 200px;
+  width: 80%;
+  background: linear-gradient(260deg, #134e69, #095234);
+  position: absolute;
+  border-radius: 10px;
+  bottom: 15px;
+  left: 10%;
+  /* z-index: -1; */
+  box-shadow: 0 0 20px -15px #030380;
+  transition: transform 0.8s;
+}
+.shadowTwo {
+  height: 200px;
+  width: 64%;
+  background: linear-gradient(260deg, #134e69, #095234);
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 18%;
+  transition: transform 0.8s;
+  /* z-index: -2; */
+}
+.main:hover .service {
+  transform: translateY(-40px);
+}
+.main:hover .shadowOne {
+  transform: translateY(10px);
+}
+.main:hover .shadowTwo {
+  transform: translateY(20px);
+}
+.main:hover .fa {
+  transform: rotate(360deg);
+}

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 1140px) {
+  #contact h2 {
+    font-size: 1.5rem;
+  }
+  #contact p {
+    font-size: 1rem;
+  }
+  #contact span {
+    font-size: 0.8rem;
+  }
+}

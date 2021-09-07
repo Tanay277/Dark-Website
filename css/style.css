@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  scroll-behavior: smooth;
+  background: linear-gradient(7deg, #1c2d3c, #160c21) no-repeat center/cover
+    fixed;
+}
+
+ul {
+  margin-bottom: 0 !important;
+}
+#home {
+  height: 570px;
+}
+.navbar-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "poppins", sans-serif;
+}
+.logo {
+  width: 30%;
+  margin-top: 2.5px;
+}
+.logo img {
+  width: 140px;
+  margin: 11px 80px;
+  cursor: pointer;
+}
+.nav-1 {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 1.1em;
+}
+
+.nav-1 li {
+  list-style: none;
+  margin: -105px;
+}
+.nav-1 li a {
+  color: #0cd02d;
+  text-decoration: none;
+}
+.nav-1 li a::after {
+  content: "";
+  width: 0%;
+  height: 2.5px;
+  background: linear-gradient(313deg, #125ad6, #2aad70);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.nav-1 li a:hover::after {
+  width: 100%;
+}
+.home {
+  height: 85.4vh;
+  display: flex;
+}
+
+.left-col {
+  display: flex;
+  width: 42%;
+  height: 100%;
+  /* align-items: center; */
+}
+.extra {
+  display: flex;
+}
+.right-col {
+  display: flex;
+  width: 58%;
+  height: 100%;
+  align-items: center;
+}
+.burger {
+  position: static !important;
+display: none;
+}
+.right-col img {
+  border: 10px solid #00000036;
+  width: 55vw;
+  height: 75vh;
+}
+.content {
+  margin: 0px auto;
+  margin-top: 80px;
+}
+.indicator-1 {
+  display: flex;
+  margin-left: 15px;
+}
+.indicator-1 span {
+  width: 11px;
+  height: 11px;
+  border: 1px solid #738dff;
+  border-radius: 50%;
+  margin: 5px;
+}
+.active {
+  background: #738dff;
+}
+.content h1,
+.content p {
+  margin: 15px;
+}
+.content h1 {
+  font-size: 3.2em;
+  color: white;
+  font-family: "Cabin";
+  letter-spacing: 2px;
+}
+.content p {
+  font-size: 18px;
+  color: rgb(216, 214, 214);
+  font-family: "Hammersmith One";
+  font-weight: lighter;
+}
+.btn-1 {
+  cursor: pointer;
+  margin: 15px;
+  font-family: cabin, sans-serif;
+  border: none;
+  outline: none;
+  background: linear-gradient(to right, #0075ff, #ff0aca);
+  color: white;
+  font-size: 1.1em;
+  border-radius: 3px;
+  padding: 8px;
+  transition: transform 200ms ease-in-out 0s;
+}
+.btn-1:hover {
+  transform: translateY(-2px);
+}
+.span {
+  color: #0075ff;
+}
+.btn-2 {
+  cursor: pointer;
+  margin: 5px 9px;
+  font-family: Cabin, sans-serif;
+  border: none;
+  outline: none;
+  background: #1c2d3c;
+  color: #2aad70;
+  font-size: 1.1em;
+  border-radius: 3px;
+  padding: 8px;
+  width: 95px;
+  transition: background 0.2s ease-in;
+}
+.btn-2:hover {
+  background: #0b1925;
+}

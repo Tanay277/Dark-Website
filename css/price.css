@@ -1,0 +1,113 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+#Pricing {
+  color: white;
+  /* padding: 10px 0; */
+}
+.price-table {
+  padding: 0;
+}
+.single-price {
+  margin: 10px auto;
+  display: inline;
+  float: left;
+  width: 100%;
+  background: #efefef17;
+  transition: 0.5s;
+}
+.single-price:hover {
+  box-shadow: 0 2px 20px #efefef17;
+}
+#Pricing .fa {
+  padding: 0 10px;
+  color: red;
+  font-size: 20px;
+}
+.fa-check-circle {
+  color: green !important;
+}
+.price-bottom {
+  display: inline;
+  float: left;
+  padding: 15px 15px 30px;
+  text-align: center;
+  width: 100%;
+}
+.buy-btn {
+  background: #2196f3;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  font-size: 18px;
+  padding: 15px 50px;
+  transition: all 0.5s;
+}
+.buy-btn:hover {
+  border-color: 1px solid #fff;
+  background: #3f51b5;
+}
+#Pricing a {
+  text-decoration: none !important;
+  color: #fff !important;
+  font-family: cabin;
+}
+.price-head {
+  background: #0b3a6b;
+  display: inline;
+  float: left;
+  padding: 10px 5px;
+  text-align: center;
+  width: 100%;
+}
+.price-head h2 {
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 0;
+  padding: 5px;
+  text-transform: uppercase;
+  font-family: poppins;
+}
+.price-head p {
+  font-family: rubik;
+  color: #ccc;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+}
+#Pricing span {
+  font-size: 15px;
+}
+.price-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+}
+#Pricing ul {
+  font-family: roboto, sans-serif;
+}
+#Pricing ul li {
+  border-bottom: 1px solid#fff;
+  padding: 15px 10px;
+  list-style: none;
+}
+#Pricing ul li:last-child {
+  border: none;
+}
+.h1-pri {
+  color: white;
+  font-size: 32px;
+  /* font-weight: bold; */
+  text-align: center;
+  font-family: "hammersmith one";
+}
+.h1-pri::after {
+  content: "";
+  background: linear-gradient(to left, #2bb53a, #6415cc);
+  display: block;
+  height: 3px;
+  width: 200px;
+  margin: 10px auto;
+}
